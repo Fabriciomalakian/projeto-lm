@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RockNation</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="data:image/x-icon;base64,AAABAAEAEBACAAAAAACwAAAAFgAAACgAAAAQAAAAIAAAAAEAAQAAAAAAQAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA////AAAAAAAAAAAAAAAAAAfAAAAcAAAAFAAAABfAAAASQAAAEkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwPwAA4B8AAMAPAACADwAAgA8AAIAPAACADwAAgA8AAIAPAACfzwAAn88AAJ/PAACfzwAAn88AAJ/PAAD//wAA"
+        rel="icon" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Montserrat|Noto+Sans+TC" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js" integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a"
+        crossorigin="anonymous"></script>
+        <style>
+        #formulario{
+            width:100%;
+            height: 100%;
+        }
+        
+        h2, h5{
+            width:100%;
+        }
+
+        .button1{
+            width: 50%;
+        }
+
+        .section-left {
+            overflow: hidden;
+            background-color: #ffff;
+            width: 50%;
+            height:90vh;
+            float: left;
+            padding: 1%;
+        }
+        @media only screen and (max-width: 480px) {
+            .section-left {
+               width: 100%
+                  }
+            }
+        @media only screen and (max-width: 600px) {
+            .section-left {
+                width: 100%
+                  }
+           }
+
+        .section-right {
+            background-color: #ffff;
+            width:50%;
+            height: 90vh;
+            float: right;
+            padding: 1%;
+        }
+        @media only screen and (max-width: 480px) {
+            .section-right {
+                width: 100%;
+                  }
+            }
+        @media only screen and (max-width: 600px) {
+            .section-right {
+                width: 100%;
+                height: 100vh;
+                  }
+           }
+        .pagicons .icons {
+            color: black;
+            list-style-type: none;
+            text-decoration: none;
+            display: flex;
+            margin: 0px;
+            padding: 0px;
+
+            }
+
+        .pagicons .icons li a{
+            text-decoration: none;
+            color: black;
+            font-size: 1.5rem; 
+            padding: 4px;;
+        }
+        .section-right .tamanho{
+            display: inline-block;
+        }
+
+        input label{
+            width:1%;
+        }
+
+        .frenteverso img:hover {
+            overflow: hidden;
+            transform: scale(1.2);
+            transition: all .5s ease;
+        }
+
+
+        .info{
+            float: inherit;
+            font-size: 16px;
+            color: grey;
+            padding-top: 10px;
+            padding-left: 10px;
+        }
+        .botao{
+            display: flex;
+            width: 100%;
+            padding:1%;
+        }
+
+        .button1 {
+            background: -webkit-linear-gradient(right, #11a534, #2fa352);
+            border: none;
+            color: white;
+            padding: 2% 3%;;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+
+        }
+
+
+        .frete{
+            display: flex;
+        }
+
+    </style>    
+</head>
+
+
+<body>
+<!--header-->
+<header class="header-content">
+    <a href="#" class="logo">
+      <img src="./imgs/logonova.png" alt="Logo">
+    </a>
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html"><i class="fa fa-home"></i></a></li>
+            <li><a href="masculino.html">MASCULINO</a></li>
+            <li><a href="#">FEMININO</a></li>
+            <li><a href="fale-conosco.html">FALE CONOSCO</a></li>
+            <li><a href="#"><i class="fas fa-user"></i> <i class="fa fa-caret-down"></i></a>
+                <ul class="submenu">
+                    <li><a href="login.html">ENTRAR</a></li>
+                    <li><a href="login.html">REGISTRE-SE</a></li>
+                    <li><a href="login.html">MINHA CONTA</a></li>
+                </ul>
+            </li>
+            <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+        </ul>
+    </nav>
+</header>
+<!--camisa/descrição-->
+    <section>
+        <div class="section-left">
+            <div class="frenteverso">
+                <img src="imgs/camisa1.png" style="width:46%; float:right;">
+                <img src="imgs/camisa1verso.png" style="width:46%; float:left;">
+            </div>
+            <div class="info">
+                <h5>Mais Informações</h5>
+                <h6>* Malha Penteada 30.1 100% Algodão Qualidade Premium<br>
+                    * Estampa resistente a lavagens <br>
+                    As imagens de produto apresentadas são apenas ilustrativas.<br> Poderá haver leve variação de cor, tamanho
+                    e posição de<br> estampa entre o produto final e o produto apresentado na imagem.<br> São variações
+                    normais, devido às diferenças entre o que se vê no<br> monitor e em qualquer peça física em mãos, não
+                    afetando o uso,<br>qualidade ou beleza do produto, não sendo considerado defeito ou problema.<br></h6>
+            </div>
+        </div>
+<!--compra-->
+        <div class="section-right">
+            <form id="formulario" autocomplete="on">
+                <legend><h2 style="color: black">CAMISETA MASCULINA METALLICA AMERICAN SKULL</h2>
+                    <hr>
+                    <del><h5 style="color: gray">De: R$ 60,00</h5></del>
+                    <h3 style="color: red">Por: R$ 45,00 </h3></legend>
+                    <div class="pagicons">
+                            <h3>Formas de pagamento</h3>
+                                <ul class="icons">
+                                    <li><a href=""><i class="fab fa-cc-visa"></i></a></li>
+                                    <li><a href=""><i class="fab fa-cc-mastercard"></i></a></li>
+                                    <li><a href=""><i class="fab fa-cc-paypal"></i></a></li>
+                                    <li><a href=""><i class="fab fa-cc-amex"></i></a></li>
+                                </ul>
+                    <div class="tamanho">
+                    <br><b>Tamanho:</b><br>
+                    <label><input type="radio" name="rdo1">P</label><br>
+                    <label><input type="radio" name="rdo1">M</label><br>
+                    <label><input type="radio" name="rdo1">G</label><br>
+                    <label><input type="radio" name="rdo1">GG</label><br>
+                    </div>
+                    <br>
+                    <b>Quantidade:</b> 
+                    <input type="number" name="quantidade" min="1" max="10" step="1" value="1"></br>
+                <div class="botao">
+                    <button class="button1"><i class="fas fa-shopping-cart"></i> Comprar</button>
+                </div>
+                <br>
+                <div class="frete">
+                <label for="cep"><b>Calcule o frete:</b> </label>
+                <input type="text" name="cep" id="cep" placeholder="CEP"> 
+                <input type="button" name="submit" value="OK">
+                </div>
+
+            </form>
+        </div>
+    </section>
+    
+    <div style="clear: both"></div>
+
+   <!-- FOOTER -->
+   <footer>
+    <div class="footer-content">
+    <section class="about">
+        <h1>Quem Somos</h1>
+        <p>Desde 2018, a RockNation vem trazendo para o público rock tudo que há de melhor em produtos das melhores bandas do mundo!</p>
+    </section>
+
+    <section class="social">
+        <h1>Redes Sociais</h1>
+        <ul class="menu">
+        <li><a href=""><i class="fab fa-google-plus"></i></a></li>
+        <li><a href="https://www.facebook.com/fabrici0gabriel"><i class="fab fa-facebook"></i></a></li>
+        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+        </ul>
+    </section>
+    <section class="contato">
+        <h1>Contato</h1>
+        <p><i class="fas fa-phone"></i> (xx) xxxx-xxxx</p>
+        <p>Av. 1º de Maio - 720, Jaguaribe, João Pessoa - PB.<br>CEP: 58042-900</p>
+    </section>
+    </div>
+
+    <section class="copyright">
+    © 2018
+    </section>
+</footer>
+<!-- Fim de Footer -->
+</body>
+
+</html>
